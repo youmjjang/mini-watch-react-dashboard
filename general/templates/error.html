@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title or '오류' }} | mini-watch</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<main class="container narrow">
+  <section class="card">
+    <p class="eyebrow">오류 안내</p>
+    <h1>{{ title or '요청을 처리할 수 없습니다.' }}</h1>
+    <p>{{ message }}</p>
+    <a class="button secondary" href="{{ url_for('posts.index') }}">목록으로</a>
+  </section>
+</main>
+</body>
+</html>
