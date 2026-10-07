@@ -1,0 +1,4 @@
+Local Git terminal commit verification
+Repository: youmjjang/mini-watch-react-dashboard
+Purpose: ALEPH React Flask monitoring dashboard assignment
+Created on this local PC
